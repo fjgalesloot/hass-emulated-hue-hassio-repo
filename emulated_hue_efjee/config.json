@@ -1,9 +1,9 @@
 {
-  "name": "Emulated HUE (dev)",
+  "name": "Emulated HUE (eFJee)",
   "version": "0.2.3",
   "description": "Hue Emulation for Home Assistant - eFJee",
   "url": "https://github.com/fjgalesloot/hass-emulated-hue-core",
-  "slug": "emulated_hue_dev",
+  "slug": "emulated_hue_dev_efjee",
   "stage": "experimental",
   "startup": "application",
   "boot": "auto",
