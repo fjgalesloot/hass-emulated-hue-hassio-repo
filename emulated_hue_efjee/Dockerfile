@@ -11,7 +11,7 @@ RUN wget -O /tmp/base.tar.gz "https://github.com/fjgalesloot/hass-emulated-hue-c
     && mv /tmp/base/* . \
     && chmod -R 755 *
 
-FROM fjgalesloot/hass-emulated-hue-core:0.2.14
+FROM fjgalesloot/hass-emulated-hue-core:latest
 
 # Copy root filesystem
 COPY --from=downloader /base/docker/rootfs-dev/ /
